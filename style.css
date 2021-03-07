@@ -1,18 +1,18 @@
 body{
     padding: 0;
-    margin: 2em 1,5em 0;
+    margin: 2em 1.5em 0;
     box-sizing: border-box;
     background-color: #EEE;
 }
 header{
     text-align: center;
 }
-header #main h1{
+header h1{
     width: 100%;
-    margin: 0,7em auto 0;
-    padding: 1.3em 0 0;
+    margin: 0.7em auto 0;
+    padding: 0;
 }
-header #main p{
+header p{
     margin: 0 auto;
-    padding: 0.1em 0 0.4em;
+    padding: 0.1em 0 0.9em;
 }
