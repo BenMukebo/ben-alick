@@ -1,8 +1,13 @@
 body{
     padding: 0;
-    margin: 2em 1.5em 0;
+    margin: 1.7em 0.6em;
     box-sizing: border-box;
+}
+.body{
     background-color: #EEE;
+    padding:0.5em 1em;
+    border-radius: 5px;
+
 }
 header{
     text-align: center;
@@ -10,23 +15,47 @@ header{
 header h1{
     width: 100%;
     margin: 0.7em auto 0;
-    padding: 0;
+    padding: 0.6em 0;
+    font-size: 2.2em;
 }
 header p{
     margin: 0 auto;
-    padding: 0.1em 0 0.9em;
+    padding: 1em 0 1.3em;
 }
 
 div #img-div {
     text-align: center;
     display: block;
+    background-color: #FFF;
 }
 
 #image {
   display: block;
   margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
 	align-content: center;
-  max-width: 100%;
+  max-width: 98%;
   height: auto;
+  /* padding: 1em; */
+  
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    color: #333;
+    line-height: 1.6;
+    padding: 2em 0;
+}
+article ul, article p {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 40em;
+    
+}
+.link{
+    text-align: center;
 }
